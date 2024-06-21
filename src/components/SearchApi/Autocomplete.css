@@ -1,0 +1,50 @@
+.search-box,
+span.deleteicon,
+.search-wrapper {
+  position: relative;
+  padding: 10px;
+}
+.search-wrapper {
+  width: 500px;
+  margin-top: 0px;
+  margin-left: -19px;
+  position: relative;
+}
+.search-box {
+  width: 80%;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 15px;
+}
+.search-box:focus {
+  box-shadow: 0 0 15px 5px #b0e0ee;
+  border: 2px solid #bebede;
+}
+.search-list {
+  height: 450px;
+}
+
+span.deleteicon {
+  position: relative;
+  width: 530px;
+  display: inline-flex;
+  align-items: center;
+}
+span.deleteicon span {
+  position: absolute;
+  vertical-align: middle;
+  left: 410px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #160d0d;
+  font: 13px monospace;
+  text-align: center;
+  line-height: 1em;
+  cursor: pointer;
+}
+span.deleteicon input {
+  padding-right: 18px;
+  box-sizing: border-box;
+}
