@@ -1,7 +1,7 @@
-const SearchBar = ({inputValue,handleChange,handleSubmit}) => {
+const SearchBar = ({inputValue,handleChange,handleSubmit,apitype}) => {
   return (
     <div>
-      Auto complete through API
+      Auto complete through {apitype}
    
 
       <div className="search-wrapper">

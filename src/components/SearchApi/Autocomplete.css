@@ -3,6 +3,7 @@ span.deleteicon,
 .search-wrapper {
   position: relative;
   padding: 10px;
+  
 }
 .search-wrapper {
   width: 500px;
@@ -15,6 +16,8 @@ span.deleteicon,
   border: 1px solid #ccc;
   position: relative;
   border-radius: 15px;
+  padding-right: 35px !important;
+ 
 }
 .search-box:focus {
   box-shadow: 0 0 15px 5px #b0e0ee;
