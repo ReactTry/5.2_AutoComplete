@@ -19,7 +19,7 @@ const AutoCompDbounce = () => {
       else{
         nameFilter([])
       }
-    }, 500);
+    }, 2000);
 
     return () => {
       clearTimeout(debounceTimer);
